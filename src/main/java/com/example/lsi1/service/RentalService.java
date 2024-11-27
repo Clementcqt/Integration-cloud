@@ -12,7 +12,7 @@ public class RentalService {
     List<Car> cars = new ArrayList<Car>();
 
     public RentalService(){
-        cars.add( new Car("AA11BB", "Ferrari", 1000));
+        cars.add( new Car("AA21BB", "Ferrari", 1000));
         cars.add( new Car("BB22CC", "Porsche", 2000));
         cars.add( new Car("CC44DD", "Peugeot", 400));
     }
